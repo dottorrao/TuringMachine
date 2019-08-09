@@ -1,6 +1,14 @@
 {
     "tape":{
         "filename":"tape.tm",
+        "filepath":".\\",
         "separator":";"
+    },
+    "table":{
+        "filename":"table.tm"
+    },
+    "logfile":{
+        "filename":"TuringLogg.txt",
+        "filepath":".\\"
     }
 }
