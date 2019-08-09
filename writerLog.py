@@ -11,6 +11,6 @@ class WriterLog:
     
     def writeLog (self,message):
         self.logFile = open(self.fullLogName,"a")
-        self.logFile.write(str(datetime.datetime.now().isoformat()) + ": " + message)
+        self.logFile.write(str(datetime.datetime.now().isoformat()) + ": s" + message)
         self.logFile.write("\n")
         self.logFile.close() 
