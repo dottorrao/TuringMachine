@@ -8,4 +8,4 @@ WL = WriterLog (".\\","TuringLog.txt")
 WL.writeLog ("Questo e' un messaggio di prova")
 
 message = S1.getDetails()
-WL.writeLog ( message )
+WL.writeLog ( message 
