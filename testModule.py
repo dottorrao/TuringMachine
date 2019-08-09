@@ -1,6 +1,7 @@
 from state import State
 from writerLog import WriterLog
 from tape import Tape
+from configurator import Configurator
 
 S1 = State("Q0","Q0","Initial state")
 print (S1.getDetails())
